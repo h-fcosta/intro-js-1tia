@@ -7,6 +7,7 @@ const formulario = document.querySelector("#formulario");
 formulario.addEventListener("submit", function (event) {
   event.preventDefault();
 
+
   const nome = inputNome.value.trim();
   const idade = Number(inputIdade.value.trim());
 
